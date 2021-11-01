@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A-Star</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>A Star</h1>
+      </header>
+      <main>
+          <p>Left click to draw walls <br>
+             Right click to draw path</p>
+        <div class="canvas-container">
+
+            <canvas id="table"></canvas>
+        </div>
+        <div class="controls">
+          <input type="button" value="Clear" id="clear" />
+          <input type="button" value="Random" id="rnd" />
+        </div>
+      </main>
+      <footer>
+        <h3>
+          <a href="http://sergiosoriano.com" target="_blank"
+            ><script>
+              document.write(new Date().getFullYear());
+            </script>
+            Sergio Soriano</a
+          >
+        </h2>
+      </footer>
+    </div>
+
+    <script src="./js/astar.js"></script>
+    <script src="./js/table.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
