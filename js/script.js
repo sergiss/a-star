@@ -1,3 +1,8 @@
+/**
+ * 2021 - Sergio Soriano
+ * https://github.com/sergiss
+ * www.sergiosoriano.com
+ */
 const table = new Table(40, 40);
 const astar = new AStar(table);
 

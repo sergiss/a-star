@@ -1,3 +1,8 @@
+/**
+ * 2021 - Sergio Soriano
+ * https://github.com/sergiss
+ * www.sergiosoriano.com
+ */
 class Table extends Grid {
     
   constructor(cols, rows) {

@@ -1,3 +1,8 @@
+/**
+ * 2021 - Sergio Soriano
+ * https://github.com/sergiss
+ * www.sergiosoriano.com
+ */
 const LATERAL_WEIGHT = 1;
 const DIAGONAL_WEIGHT = Math.sqrt(2) * LATERAL_WEIGHT;
 
