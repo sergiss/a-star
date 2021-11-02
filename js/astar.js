@@ -71,7 +71,7 @@ class AStar {
          
         }
       }
-      this.closedSet[node.id] = node; // Add node to closedSed
+      this.closedSet[node.id] = node; // Add node to closedSet
     } while (this.openSet.size() > 0);
 
     return null;
